@@ -19,9 +19,3 @@ if N > a and N > b:
     print(f'Произведение чисел {num [a - 1]} и {num[b -1]} =', proizvedenie)
 else:
     print('Такой позиции числа a или b не существует')
-
-#if N > a and N > b:
- #   proizvedenie = num(a) * num (b)
-#else:
- #   print('Такого a или b не существует')
-# print(proizvedenie)
