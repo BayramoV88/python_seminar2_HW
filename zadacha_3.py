@@ -2,4 +2,8 @@
 # округлённую до трёх знаков после точки.
 
 num = int(input("Введите число: \n"))
+lst = [round ((1 + 1 / i) ** i, 3) for i in range(1, num+1)]
+print(f'Последовательность {lst}')
+print(f'Сумма = {round(sum(lst), 3)}')
+
 
